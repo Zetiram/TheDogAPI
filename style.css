@@ -1,0 +1,19 @@
+:root {
+	/*Primary Colors*/
+--LightCyan: hsl(193, 38%, 86%);
+--NeonGreen: hsl(150, 100%, 66%);
+
+	/*Neutral Colors*/
+--GrayishBlue: hsl(217, 19%, 38%);
+--DarkGrayish Blue: hsl(217, 19%, 24%);
+--DarkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+	background-color: var(--DarkBlue);
+}
+
+h1, h2 {
+	color: white;
+
+}

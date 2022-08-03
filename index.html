@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Random Doggos</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		img {
+			width: 350px;
+			height: 350px;
+			border-radius: 2px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Doggos omg <3</h1>
+		<span id="DogError"></span>
+
+		<section class="randomdoggos" id="randomdoggos">
+
+			<article class="random-dogs-article">
+				<img id="img1" alt="perro">
+				<button id="btn1" onclick="saveFavorites()">Guardar foto</button>
+			</article>
+
+			<article class="random-dogs-article">
+				<img id="img2" alt="perro">
+				<button id="btn2" onclick="saveFavorites()">Guardar foto</button>
+			</article>
+
+			<button onclick="randomPerros()">Recargar</button>
+		</section>
+	
+		<section id="uploadingDogs">
+			<h2>
+			Sube la foto de tu perrito:)</h2>
+				<form id="uploadForm">
+					<input type="file" name="file" id="fileDogs">
+
+					<button type="button" onclick="subirFoto()">
+				</form>
+			
+		</section>
+
+	<section id="fvritesdoggos">
+
+			<article>
+				<img id="img1" alt="perro">
+				<button> sacar de favoritos Guardar foto</button>
+			</article>
+	</section>
+	
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	
+	<script src="./primerAPI.js"></script>
+</body>
+</html>
